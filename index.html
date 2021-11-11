@@ -7,41 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
-        <h1>To Do List</h1>
-        <form id="new-task-form">
-            <input
-                type="text"
-                id="new-task-input"
-                placeholder="What do you have planned?" />
-            <input 
-                type="submit"
-                id="new-task-submit"
-                value="Add task">
-        </form>
+        <h1>to do list</h1>
+        <div class="input_div">
+            <input class="input" type="text" placeholder="put here">
+            <button class="addButton">add</button>
+        </div>
+        <div class="container">
+            <!-- <div class="item">
+                <input type="text" class="item_input" value="Code" disabled>
+                <button class="editButton">EDIT</button>
+                <button class="removeButton">REMOVE</button>
+            </div> -->
+        </div> 
     </header>
-
-    <main>
-        <section class="task-list">
-            <h2>Tasks</h2>
-
-            <div id="tasks">
-                <div class="content">
-                    <input 
-                        type="text"
-                        class="text"
-                        value="My shiny task"
-                        readonly
-                    />
-                </div>
-                <div class="actions">
-                    <button class="edit">edit</button>
-                    <button class="delete">delete</button>
-                </div>
-            </div>
-        </section>
-    </main>
     <script src="./js/main.js"></script>
 </body>
 </html>
