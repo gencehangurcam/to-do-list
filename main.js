@@ -2,6 +2,7 @@ const addButton = document.querySelector('.addButton');
 var input = document.querySelector('.input');
 const container = document.querySelector('.container'); 
 
+
 class item{
     constructor(itemName) {
         this.createDiv(itemName);
