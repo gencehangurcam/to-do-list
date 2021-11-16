@@ -60,7 +60,7 @@ input, button {
 }
 
 .item_input {
-    flex: 1;
+    /* flex: 1; */
     background-color: rgb(0, 0, 0);
     padding: 15px;
     border-radius: 15px;
@@ -73,3 +73,20 @@ input, button {
     color: white;
     cursor: pointer;
 }
+
+.three_button {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.three_button button{
+    text-align: center;
+    background-color: #fff;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
